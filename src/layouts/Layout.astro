@@ -1,23 +1,77 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>Solo Ecos</title>
 	</head>
 	<body>
 		<slot />
 	</body>
 </html>
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
+<style is:global>
+:root {
+	--color-dark: #272727;
+  --color-light: #E8E3DB;
+
+	--text-primary: #272727;
+  --text-inverse: #E8E3DB;
+
+	--bg-main: #E8E3DB;
+  --bg-dark: #272727;
+
+	--button-bg: #272727;
+  --button-text: #E8E3DB;
+
+	--font-title: 'Suez One', system-ui ,serif;
+	--font-text: 'Bree Serif', system-ui ,serif;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	line-height: 1.5;
+	scroll-behavior: smooth;
+}
+
+body {
+	position: relative;
+	min-height: 100dvh;
+	max-width: 840px;
+	display: flex;
+	flex-direction: column;
+	line-height: 1.5;
+	font-family: var(--font-text);
+	color: var(--text-primary);
+}
+
+a, ul{
+	text-decoration: none;
+	list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	text-wrap: balance;
+}
+
+img, svg{
+	height: auto;
+	max-width: 100%;
+}
+
+main {
+	flex-grow: 1;
+}
 </style>

@@ -9,6 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@fontsource/bree-serif": "^5.2.8",
+    "@fontsource/suez-one": "^5.2.8",
     "astro": "^5.17.1"
   }
 }
