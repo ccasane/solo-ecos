@@ -1,0 +1,26 @@
+{
+  "Album": [
+    "Eres tú (intro)",
+    "Caminos Rotos",
+    "Yo Te Esperaré",
+    "No Hay Final",
+    "Ser Feliz",
+    "Éramos los dos",
+    "Carta para el <3",
+    "Ecos (interludio)",
+    "Sin Tu Adios",
+    "El Tiempo Lo Cura",
+    "Rosa de los Vientos",
+    "Pocos Momentos"
+  ],
+  "Social": {
+    "spotify": "https://open.spotify.com/intl-es/artist/1dYfBeYEZMe9Bl9UynFZWh",
+    "apple": "https://music.apple.com/pe/artist/angel-gallardo/1532818617",
+    "youtube": "https://www.youtube.com/channel/UCjhJdCyPndSZp42riRZfvEw",
+    "amazon": "https://music.amazon.com/artists/B08JSKYJ16",
+    "Facebook": "https://www.facebook.com/angelgallardomus/"
+  },
+  "Footer": {
+    "github": "https://github.com/ccasane"
+  }
+}
