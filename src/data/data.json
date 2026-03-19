@@ -1,5 +1,5 @@
 {
-  "Album": [
+  "album": [
     "Eres tú (intro)",
     "Caminos Rotos",
     "Yo Te Esperaré",
@@ -13,14 +13,17 @@
     "Rosa de los Vientos",
     "Pocos Momentos"
   ],
-  "Social": {
+  "social": {
     "spotify": "https://open.spotify.com/intl-es/artist/1dYfBeYEZMe9Bl9UynFZWh",
     "apple": "https://music.apple.com/pe/artist/angel-gallardo/1532818617",
     "youtube": "https://www.youtube.com/channel/UCjhJdCyPndSZp42riRZfvEw",
     "amazon": "https://music.amazon.com/artists/B08JSKYJ16",
     "Facebook": "https://www.facebook.com/angelgallardomus/"
   },
-  "Footer": {
+  "sociallink": {
+    "link": ["spotify", "apple", "youtube", "amazon"]
+  },
+  "footer": {
     "github": "https://github.com/ccasane"
   }
 }
